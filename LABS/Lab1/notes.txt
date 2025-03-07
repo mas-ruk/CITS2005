@@ -1,0 +1,43 @@
+Key Learnings from this Lab:
+
+Ex. 2: Addition.java
+- You can add char and int variables together 
+- i.e. when i add the integer 1 & the char '1' together it returns 50, as the ASCII value of 1 is 49
+- adding an integer and a floating point number together converts the result to a floating point number
+- cannot add int and bool together
+- adding a String and int together converts the int to a String variable and concatenates them
+
+Ex. 3
+Q1: Look at Java operations precedence table
+
+Q2: What happens when operators with the same precedence appear in an expression? What order are the executed in? 
+Do brackets change the order or execution?
+
+- When operators of equal precedence appear in the same expression, a rule must govern which is evaluated first. 
+- All binary operators except for the assignment operators are evaluated from left to right; assignment operators are evaluated right to left.
+
+Q3: Does Java follow BODMAS?
+- Generally, yes. Multiplication, division and remainder are applied first. 
+- If an expression contains several such operations, they are evaluated left to right.
+- Addition and subtraction operations are applied next, again if they contain multiple of the same precedence they are applied left to right.
+
+Q4: (to do with the FourToEight class file) Change the class to print "yes" if num is between 4 and 8 and "no" otherwise. 
+You should use the following operators: <=, >=, and &&
+
+Q5: How does && having lower precedence than <= and >= help?
+- evaluates both seperate expressions before comparing them
+
+Q6: Consider the Boolean class. Is there an assignment of a, b, and c that causes "a || b && c" to be true but not "(a || b) && c"?
+- When c is false, this case becomes reality
+- The initial statement will always evaluate to true when the value of a is true
+- The latter statement requires both statements (a || b) to be true as well as can
+- when c is false, the latter statement will always be false
+
+Ex. 4
+Complete the following problems on CodingBat (https://codingbat.com/java/Logic-1). You can do more if you want to do extra revision.
+(a) https://codingbat.com/prob/p159531
+(b) https://codingbat.com/prob/p157733
+(c) https://codingbat.com/prob/p113261
+
+Ex.5: 
+Playing with bitwise operators in Java
