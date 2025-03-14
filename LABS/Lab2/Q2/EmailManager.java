@@ -20,7 +20,7 @@ public class EmailManager {
     }
 
     public ArrayList<Email> getEmailsLongerThan(int minMessageLength) {
-        ArrayList<Email> longEmail = new ArrayList<Email>();
+        ArrayList<Email> longEmail = new ArrayList<>();
         
         // loop over each email
         for (Email email : emails) { {
