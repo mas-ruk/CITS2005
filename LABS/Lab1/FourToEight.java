@@ -11,5 +11,6 @@ public class FourToEight {
         } else {
             System.out.println("no");
         }
+        sc.close();
     }
 }
