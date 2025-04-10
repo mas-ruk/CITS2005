@@ -1,7 +1,7 @@
 public class Addition {
     public static void main(String[] args) {
-        int a = 1;
-        String b = "one";
+        char a = 'a';
+        char b = 'b';
         System.out.println(a + b);
     }
 }
